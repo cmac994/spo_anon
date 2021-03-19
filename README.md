@@ -1,3 +1,5 @@
+<img width="720" height="300" src="anon_example.png">
+
 ### Overview
 Crowdsourced mobile location data, from two publicly accessible datasets, are anonymized following the methodology (Section 3) of McNicholas and Mass (2021a).
 Specifically, location data is first obfuscated, under the notion of geo-indistinguishability (Andres et al., 2013; Bordenabe, 2014), and then generalized (Krumm, 2007) within the framework of k-anonymity (Samarati and Sweeny, 1998). This combined approach to the anonymization of location data is similar to that of Kraemer et al. (2020) who combined differential privacy (Dwork, 2006) with k-anonymity (Samarati and Sweeny, 1998) to anonymize mobility traces.
