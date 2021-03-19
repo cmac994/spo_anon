@@ -1,5 +1,3 @@
-# spo_anon
-
 ### Overview
 Crowdsourced mobile location data, from two publicly accessible datasets, are anonymized following the methodology (Section 3) of McNicholas and Mass (2021a).
 Specifically, location data is first obfuscated, under the notion of geo-indistinguishability (Andres et al., 2013; Bordenabe, 2014), and then generalized (Krumm, 2007) within the framework of k-anonymity (Samarati and Sweeny, 1998). This combined approach to the anonymization of location data is similar to that of Kraemer et al. (2020) who combined differential privacy (Dwork, 2006) with k-anonymity (Samarati and Sweeny, 1998) to anonymize mobility traces.
@@ -17,7 +15,7 @@ To run the jupyter notebooks provided in this repository ensure you can use [con
    - This notebook provides a walkthrough of the anonymization methodology outlined in section 3 of McNicholas and Mass (2021a) using the publicly accessible T-Drive dataset     
    (Yuan et al., 2010) from Microsoft Research, which contains GPS traces of taxicabs in Beijing. 
    
-- Outline of Notebooks
+Outline of Notebooks:
   - Plot distribution of crowdsourced location data
   - Anonymize location data by combining Geo-Indistinguishability (Andres et al., 2013) and K-Anonymity (Samarati and Sweeny, 1998)
   - Display location data at each stage of anonymization (similar to Fig. 3; McNicholas and Mass, 2021a)
