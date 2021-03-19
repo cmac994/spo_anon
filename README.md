@@ -36,13 +36,13 @@ To run the jupyter notebooks provided in this repository ensure you can use [con
 
 Andrés, M. E., N. E. Bordenabe, K. Chatzikokolakis, and C. Palamidessi. 2013. Geo-indistinguishability: differential privacy for location-based systems. Proceedings of the 2013 ACM SIGSAC conference on Computer & communications security (CCS '13). Association for Computing Machinery, New York, NY, USA, pp. 901–914. https://doi.org/10.1145/2508859.2516735
 
-Cho E., Myers S.A., Leskovec J., 2011: Friendship and Mobility: Friendship and Mobility: User Movement in Location-Based Social Networks. *ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)*. https://cs.stanford.edu/people/jure/pubs/mobile-kdd11.pdf
+Cho E., S.A. Myers, J. Leskovec, 2011: Friendship and Mobility: Friendship and Mobility: User Movement in Location-Based Social Networks. *ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)*. https://cs.stanford.edu/people/jure/pubs/mobile-kdd11.pdf
 
 Bordenabe, N. E., K. Chatzikokolakis, and C. Palamidessi. 2014. Optimal geo-indistinguishable mechanisms for location privacy. *Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security (CCS '14). Association for Computing Machinery*, New York, NY, USA, 251–262. https://doi.org/10.1145/2660267.2660345
 
 Dwork C. (2006) Differential Privacy. In: Bugliesi M., Preneel B., Sassone V., Wegener I. (eds) *Automata, Languages and Programming. ICALP 2006. Lecture Notes in Computer Science*, vol 4052. Springer, Berlin, Heidelberg. https://doi.org/10.1007/11787006_1
 
-Fung B. C. M., Wang K., Chen R., Yu P.S., 2010: Privacy-preserving data publishing: A survey of recent developments. ACM Comput. Surv. 42, 4, Article 14 (June 2010), 53 pages. DOI:https://doi.org/10.1145/1749603.1749605
+Fung B. C. M., K. Wang, R. Chen, P.S. Yu, 2010: Privacy-preserving data publishing: A survey of recent developments. ACM Comput. Surv. 42, 4, Article 14 (June 2010), 53 pages. DOI:https://doi.org/10.1145/1749603.1749605
 
 Kraemer, M.U.G., and Coauthors, 2020: Mapping global variation in human mobility. Nat Hum Behav 4, 800–810. https://doi.org/10.1038/s41562-020-0875-0
 
@@ -52,4 +52,4 @@ McNicholas, C., C. Mass, 2021a: Bias Correction, Anonymization, and Analysis of 
 
 Samarati P., and L. Sweeny, 1998: Protecting privacy when disclosing information: k-anonymity and its enforcement through generalization and suppression. *Tech Report SRI-CSL-98-04, SRI Computer Science Laboratory*, pp 19. https://epic.org/privacy/reidentification/Samarati_Sweeney_paper.pdf
 
-Yuan J., Zheng Y., Zhang C., Xie W., Xie X., Sun G., and Huang Y. (2010): T-drive: driving directions based on taxi trajectories. *In Proceedings of the 18th SIGSPATIAL International Conference on Advances in Geographic Information Systems, GIS '10*, pages 99-108, New York, NY, USA,2010. ACM. https://doi.org/10.1145/1869790.1869807
+Yuan J., Y. Zheng, C. Zhang, W. Xie, X. Xie, G. Sun, and Y. Huang, (2010): T-drive: driving directions based on taxi trajectories. *In Proceedings of the 18th SIGSPATIAL International Conference on Advances in Geographic Information Systems, GIS '10*, pages 99-108, New York, NY, USA,2010. ACM. https://doi.org/10.1145/1869790.1869807
