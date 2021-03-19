@@ -21,8 +21,7 @@ To run the jupyter notebooks provided in this repository ensure you can use [con
    
 *Notebooks Outline*
   - Plot distribution of crowdsourced location data
-  - Anonymize location data by combining Geo-Indistinguishability ([Andres et al., 2013](https://doi.org/10.1145/2508859.2516735)) and K-Anonymity ([Samarati and Sweeny, 1998]
-  (https://epic.org/privacy/reidentification/Samarati_Sweeney_paper.pdf))
+  - Anonymize location data by combining Geo-Indistinguishability ([Andres et al., 2013](https://doi.org/10.1145/2508859.2516735)) and K-Anonymity ([Samarati and Sweeny, 1998] (https://epic.org/privacy/reidentification/Samarati_Sweeney_paper.pdf))
   - Display location data at each stage of anonymization (similar to Fig. 3; McNicholas and Mass, 2021a)
   - Show the distribution of pressure errors drawn from a sample of real IBM SPO errors
   - Create synthetic pressure observations at crowdsourced locations to simulate a network of SPOs. 
