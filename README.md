@@ -1,4 +1,4 @@
-<img width="1680" height="280" src="anon_example.png">
+<img width="1680" height="200" src="anon_example.png">
 
 ### Overview
 Crowdsourced mobile location data, from two publicly accessible datasets, are anonymized following the methodology (Section 3) of McNicholas and Mass (2021a).
