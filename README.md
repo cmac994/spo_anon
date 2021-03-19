@@ -3,7 +3,7 @@
 
 ### Overview
 Crowdsourced mobile location data, from two publicly accessible datasets, are anonymized following the methodology (Section 3) of McNicholas and Mass (2021a).
-Specifically, location data is first obfuscated, under the notion of geo-indistinguishability (Andres et al., 2013; Bordenabe, 2014), and then generalized (Krumm, 2007) within the framework of k-anonymity (Samarati and Sweeny, 1998). This combined approach to the anonymization of location data is similar to that of Kraemer et al. (2020) who combined differential privacy (Dwork, 2006) with k-anonymity (Samarati and Sweeny, 1998) to anonymize mobility traces.
+Specifically, location data is first obfuscated, under the notion of geo-indistinguishability ([Andres et al., 2013](https://doi.org/10.1145/2508859.2516735); [Bordenabe, 2014](https://doi.org/10.1145/2660267.2660345)), and then generalized ([Krumm, 2007](https://doi.org/10.1145/2508859.2516735)) within the framework of k-anonymity ([Samarati and Sweeny, 1998](https://epic.org/privacy/reidentification/Samarati_Sweeney_paper.pdf)). This combined approach to the anonymization of location data is similar to that of [Kraemer et al. (2020)](https://doi.org/10.1038/s41562-020-0875-0) who combined differential privacy ([Dwork, 2006](https://doi.org/10.1007/11787006_1)) with k-anonymity to anonymize mobility traces.
 
 ### Setup
 To run the jupyter notebooks provided in this repository ensure you can use [conda](https://docs.conda.io/en/latest/). This repository contains an environment.yml file which can be used to automaticaly install all necessary python packages to run the example notebooks. This can be accomplished by running *"conda env create -f environment.yml"*. After the conda environment has been created you can activate it with *"conda activate spo_env"*. Once the environment is activated you can open jupyter and run the example notebooks.
@@ -12,13 +12,14 @@ To run the jupyter notebooks provided in this repository ensure you can use [con
 
 - [*Anonymization of Point Location Data*](https://nbviewer.jupyter.org/github/cmac994/spo_anon/blob/master/example_notebooks/SPO_Anonymization_Point_Data.ipynb)
    - This notebook provides a walkthrough of the anonymization methodology outlined in section 3 of McNicholas and Mass (2021a) using the publicly accessible geowalla and
-   brightkite datasets (Cho et al., 2011) which contain the location of “check-ins” left by users of the social networks of the same name.
+   brightkite datasets ([Cho et al., 2011](https://cs.stanford.edu/people/jure/pubs/mobile-kdd11.pdf)) which contain the location of “check-ins” left by users of the social 
+   networks of the same name.
 
 - [*Anonymization of Mobile Location Data*](https://nbviewer.jupyter.org/github/cmac994/spo_anon/blob/master/example_notebooks/SPO_Anonymization_Mobile_Data.ipynb)
    - This notebook provides a walkthrough of the anonymization methodology outlined in section 3 of McNicholas and Mass (2021a) using the publicly accessible T-Drive dataset     
-   (Yuan et al., 2010) from Microsoft Research, which contains GPS traces of taxicabs in Beijing. 
+   ([Yuan et al., 2010](https://doi.org/10.1145/1869790.1869807)) from Microsoft Research, which contains GPS traces of taxicabs in Beijing. 
    
-Outline of Notebooks:
+*Notebooks Outline*
   - Plot distribution of crowdsourced location data
   - Anonymize location data by combining Geo-Indistinguishability (Andres et al., 2013) and K-Anonymity (Samarati and Sweeny, 1998)
   - Display location data at each stage of anonymization (similar to Fig. 3; McNicholas and Mass, 2021a)
@@ -38,6 +39,10 @@ Cho E., Myers S.A., Leskovec J., 2011: Friendship and Mobility: Friendship and M
 Bordenabe, N. E., K. Chatzikokolakis, and C. Palamidessi. 2014. Optimal geo-indistinguishable mechanisms for location privacy. *Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security (CCS '14). Association for Computing Machinery*, New York, NY, USA, 251–262. https://doi.org/10.1145/2660267.2660345
 
 Dwork C. (2006) Differential Privacy. In: Bugliesi M., Preneel B., Sassone V., Wegener I. (eds) *Automata, Languages and Programming. ICALP 2006. Lecture Notes in Computer Science*, vol 4052. Springer, Berlin, Heidelberg. https://doi.org/10.1007/11787006_1
+
+Kraemer, M.U.G., and Coauthors, 2020: Mapping global variation in human mobility. Nat Hum Behav 4, 800–810. https://doi.org/10.1038/s41562-020-0875-0
+
+Krumm, J., 2007: Inference attacks on location tracks. Proceedings of the 5th international conference on Pervasive computing (PERVASIVE'07). Springer-Verlag, Berlin, Heidelberg, pp. 127–143. https://doi.org/10.1145/2508859.2516735
 
 McNicholas, C., C. Mass, 2021a: Bias Correction, Anonymization, and Analysis of Smartphone Pressure Observations with Machine Learning and Multi-Resolution Kriging. *Journal of Weather and Forecasting*, (in review).
 
